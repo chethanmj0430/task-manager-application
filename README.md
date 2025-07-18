@@ -43,37 +43,7 @@ A responsive task management application built with React and TypeScript, simula
 
 ## Project Structure
 
-task-manager-app/
-├── public/                 # Public assets (e.g., index.html)
-├── src/
-│   ├── api/                # MSW setup (handlers, worker config)
-│   │   ├── handlers.ts     # Defines mocked API endpoints
-│   │   └── browser.ts      # MSW worker setup for browser
-│   ├── app/                # Redux store configuration
-│   │   └── store.ts        # Root Redux store, RootState, AppDispatch types
-│   ├── assets/             # Static assets (images, etc. - if any)
-│   ├── components/         # Reusable UI components
-│   │   ├── MuiThemeWrapper.tsx # Component providing Material UI theme
-│   │   └── ProtectedRoute.tsx # Route protection component
-│   ├── features/           # Feature-specific logic (slices, components)
-│   │   ├── auth/
-│   │   │   └── authSlice.ts    # Auth Redux slice
-│   │   ├── tasks/
-│   │   │   └── tasksSlice.ts   # Tasks Redux slice
-│   │   └── ui/             # UI specific state (e.g., theme mode)
-│   │       └── uiSlice.ts      # UI Redux slice
-│   ├── pages/              # Top-level page components
-│   │   ├── LoginPage.tsx   # Login screen
-│   │   └── DashboardPage.tsx # Main task dashboard
-│   ├── utils/              # Utility functions (if any)
-│   ├── App.tsx             # Main application component with routing
-│   ├── main.tsx            # Entry point of the React application
-│   └── index.css           # Global CSS (if any, typically minimal with MUI)
-├── package.json            # Project dependencies and scripts
-├── README.md               # This documentation file
-├── tsconfig.json           # TypeScript configuration
-├── vite.config.ts          # Vite build configuration
-└── .eslintrc.cjs           # ESLint configuration
+![alt text](image.png)
 
 
 ## How to Run Locally
